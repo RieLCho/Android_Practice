@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ornare velit. Sed sit amet velit sed est mattis congue. Vivamus euismod sollicitudin lobortis. Integer sed ipsum eros. Nam enim nulla, condimentum vel facilisis vitae, pharetra congue nisi. Donec feugiat aliquet diam molestie ornare. Cras enim ante, hendrerit at massa non, tincidunt maximus lectus. Nunc id dapibus turpis. Integer tortor nulla, vulputate eu pharetra sed, tempor quis erat. Pellentesque vitae tellus dapibus, aliquet metus vitae, pellentesque dui. Aenean congue erat semper est fermentum ultrices et id magna. Aenean egestas tellus nisl, vitae luctus sem venenatis vitae. Nullam quis dui sodales, vehicula turpis at, elementum augue. Aenean sollicitudin in metus id sodales.  Curabitur ac consequat quam, eu euismod odio. Cras ultrices enim justo, non venenatis mi pharetra non. Etiam tincidunt dolor turpis. Proin sapien ipsum, dictum eu porttitor a, porttitor non lorem. Nullam facilisis, dolor nec maximus efficitur, urna tellus posuere erat, eu tristique turpis mauris tincidunt est. Aenean a lobortis nulla. Duis laoreet ac lorem at dapibus. Maecenas condimentum faucibus sem ut elementum. Ut aliquam leo eu quam rutrum luctus. Mauris tincidunt tincidunt diam id maximus. Cras ac quam sit amet est pulvinar gravida. Pellentesque non turpis est. In et nulla sed dui semper congue. Curabitur et vehicula sem. Curabitur sagittis, dolor volutpat molestie finibus, libero ipsum sagittis dui, sit amet molestie lorem nibh id nulla. Nulla tristique vel sapien faucibus ultrices.  Nulla eleifend, quam sed auctor ultricies, sem sem egestas nisl, eu mollis purus enim at mauris. Etiam sit amet feugiat velit. Sed ullamcorper risus ac lectus pulvinar dictum non a lorem. Proin metus nulla, finibus sit amet dui vitae, feugiat malesuada urna. In non erat at enim imperdiet ultricies. Maecenas varius libero vel nisi scelerisque maximus. Morbi placerat orci sem, sit amet dapibus ante gravida ac. Nullam volutpat purus at porttitor gravida. Ut vitae justo sagittis augue consequat condimentum. Aenean facilisis elit a purus iaculis elementum. Cras laoreet commodo magna. Donec vestibulum dui tortor, vel vestibulum lorem congue et.  Quisque nec turpis tortor. Aenean semper volutpat commodo. Nullam at urna eu turpis finibus faucibus ut eget enim. Fusce mattis scelerisque lorem sed molestie. Nunc consequat ut enim a dapibus. Phasellus sed metus sed augue rutrum tincidunt. Nunc quis est id erat mattis fermentum vitae non lacus. Etiam eu enim eget ante hendrerit lacinia posuere nec augue. Duis malesuada, dui eleifend gravida accumsan, nulla magna convallis dui, sit amet convallis augue odio cursus massa. Morbi ac nulla quam. Mauris hendrerit lectus tincidunt justo malesuada faucibus. Maecenas semper ipsum orci, nec aliquam neque convallis vitae. Fusce ut dictum risus, eu aliquet ipsum.  Nunc pharetra lectus nec dignissim sollicitudin. Integer vel mattis nisl. In euismod hendrerit cursus. Curabitur eu est nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ligula neque, blandit ultricies malesuada at, rhoncus vitae tellus. Nunc nisi orci, vehicula eget lacinia non, ullamcorper vel ex. Maecenas suscipit eros id ligula pretium, ac vulputate orci tempus." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
