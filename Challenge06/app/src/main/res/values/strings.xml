@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Challenge06</string>
+    <string name="mainTextView">로그인하기</string>
+    <string name="menuTextView">메인 메뉴</string>
+    <string name="customerManagement">고객 관리</string>
+    <string name="salesManagement">매출 관리</string>
+    <string name="productManagement">상품 관리</string>
+    <string name="backToMenu">메뉴로</string>
+    <string name="backToLogin">로그인으로</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="login">로그인</string>
+</resources>
