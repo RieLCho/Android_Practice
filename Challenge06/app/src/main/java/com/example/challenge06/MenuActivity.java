@@ -1,14 +1,17 @@
 package com.example.challenge06;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MenuActivity extends AppCompatActivity {
 
+    public static final int MENU_REQUEST_CODE = 101;
     public static final int CUSTOMER_REQUEST_CODE = 102;
     public static final int SALES_REQUEST_CODE = 103;
     public static final int PRODUCT_REQUEST_CODE = 104;
@@ -36,4 +39,5 @@ public class MenuActivity extends AppCompatActivity {
         startActivityForResult(intent, PRODUCT_REQUEST_CODE);
         finish();
     }
+
 }

@@ -8,8 +8,8 @@ import android.view.View;
 
 public class CustomerActivity extends AppCompatActivity {
 
-    public static final int LOGIN_REQUEST_CODE = 100;
-    public static final int MENU_REQUEST_CODE = 101;
+    public static final int LOGIN_REQUEST_CODE = 105;
+    public static final int MENU_REQUEST_CODE = 106;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
