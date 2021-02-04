@@ -1,0 +1,8 @@
+com/example/inflater/BuildConfig.java
+ com.example.inflater.BuildConfig
+com/example/inflater/MainActivity.java
+ com.example.inflater.MainActivity
+ com.example.inflater.MainActivity$1
+com/example/inflater/MenuActivity.java
+ com.example.inflater.MenuActivity
+ com.example.inflater.MenuActivity$1

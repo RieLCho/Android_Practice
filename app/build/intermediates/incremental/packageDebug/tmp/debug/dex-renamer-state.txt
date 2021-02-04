@@ -1,0 +1,4 @@
+#Wed Jan 20 17:56:12 KST 2021
+base.0=C\:\\Users\\ChoYangJin\\Documents\\GitHub\\Android_Practice\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
